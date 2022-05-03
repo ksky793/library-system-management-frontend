@@ -6,9 +6,9 @@ Strona Główna:
 
 
 Zakładka "O Bibliotece"
-Video:
-  https://user-images.githubusercontent.com/64898781/166572701-190f391d-2ba6-40f0-a514-4b1c94ff2b14.mov
+Video: https://user-images.githubusercontent.com/64898781/166572701-190f391d-2ba6-40f0-a514-4b1c94ff2b14.mov
 Zdjęcia:
+
   Wersja desktopowa
   ![Zrzut ekranu 2022-05-4 o 00 00 54](https://user-images.githubusercontent.com/64898781/166573604-dc4dca17-8d25-4b10-a266-2a3fa357a997.png)
   Wersja mobilna
