@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.home-container {
+	position: relative;
+}
+
+.home-header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.home-header-img {
+	/*background-image: url("./Images/header_background.jpg");*/
+	background-image: url('./Images/header_background2.jpg');
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+}
+
+.home-header-img::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(11, 33, 46, 0.493);
+	pointer-events: none;
+}
+
+.home-header-element {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 70px 40px;
+	min-width: fit-content;
+	max-width: fit-content;
+}
+
+.home-header-element .text {
+	margin-bottom: 45px;
+}
+.home-header-element .text h1 {
+	color: white;
+	font-size: 70px;
+	/*font-family: 'Courier New', Courier, monospace;*/
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 100px;
+	margin-bottom: 10px;
+}
+
+.home-header-element .text h3 {
+	color: rgb(199, 199, 199);
+	/*font-family: 'Courier New', Courier, monospace;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+.search-button-container {
+	display: flex;
+	position: relative;
+	width: 60%;
+	justify-content: center;
+	margin: auto;
+	box-shadow: 0px 0px 10px 3px rgba(28, 21, 44, 0.637);
+	/*border-radius: 15px;*/
+	overflow: hidden;
+}
+
+.search-button-container input {
+	width: 100%;
+	padding: 5px 20px;
+	height: 35px;
+	outline: none;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.search-button-container a {
+	width: 80px;
+	/*background: #352f45;*/
+	background: #294155;
+	border: none;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+	position: relative;
+}
+.search-button-container a:hover {
+	background: #241f30;
+}
+.search-button-container .fa-search {
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+::placeholder {
+	color: rgb(151, 151, 151);
+	font-size: 15px;
+	font-weight: 100;
+}
