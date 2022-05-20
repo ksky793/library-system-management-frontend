@@ -8,6 +8,7 @@ Przykładowa część stworzona przeze mnie:
 - navbar - w zależności od roli zalogowanego użytkownika (czytelnik, pracownik, admin) - wyświetlany odpowiedni navbar 
 - pobieranie danych z api np. przy logowaniu (zapisywanie ich do localstorage)
 - rejestracja użytkownika 
+- zakładka o bibliotece - wykorzystano bootstrap carousel slider, dodano animacje aos   
 - wysłanie maila na pocztę Biblioteki (założono testowy mail) - wykorzystanie zewnętrznego api formspree
 - strona główna - możliwość wyszukania dostępnych książek po tytule, bądź wyświetlenie wszystkich po wciśnięciu wyłącznie ikony wyszukiwania
 
